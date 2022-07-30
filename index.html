@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Marvel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header class="header header_animation">
+        <section id="head">
+        <div id="head_logo">
+            <img src="" id="logo_image">
+        </div>
+
+        <nav id="nav_menu">
+            <ul>
+               <li class="nav_item">
+                    <a href="index.html" class="nav_link">HOME</a>
+                    <div class="underliner"></div> 
+                </li>
+               
+               <li class="nav_item">
+                    <a href="" class="nav_link">ABOUT</a>
+                    <div class="underliner"></div>
+                </li>
+               <li class="nav_item">
+                    <a href="" class="nav_link">DETAILS</a>
+                    <div class="underliner"></div>
+                </li> 
+            </ul>
+        </nav>
+
+        <div class="search">
+            <input type="search" class="search_bar" placeholder="Search">
+            <a href="" class="search_send"><img src="" class="search_icon"></a>
+            <li class="nav_item nav_item_end"><a href="" class="nav_link">GALLERY</a></li>
+        </div>
+        </section>
+
+        <!-- THIS IS THE SECTION THAT FOLLOW THE NAVIGATION MENU -->
+        <section class="header_main main_animatio">
+        <section class="intro_text">
+            <h2 class="webmarvel_header">Web Marvel <span class="webmarvel_hostels">Hostels</span></h2>
+            <p class="header_para">
+                Your <span class="text_red">number 1</span> <span class="text_green">affordable</span>
+                 and <span class="text_cyan">comfortable</span> place to stay in<span class="exclaim_big">!</span>
+            </p>
+            <p class="login_para" id="test_para">You have to <label for="username" class="login_label">Login</label> to submit a complaint</p>
+
+        </section>
+
+        <section class="form_field">
+            <form action="complaint.html" class="form_area" id="form1">
+                <h3 class="form_header">Sign In To Continue</h3>
+                <div class="input_section">
+                    <input type="text" placeholder="Username" id="username" class="login_input" required>
+                    <div class="input_underliner"></div>
+                </div>
+                <div class="input_section">
+                    <input type="password" placeholder="Password" class="login_input" required>
+                    <div class="input_underliner"></div>
+                </div>
+                <div class="flex_basis"></div>
+                <!-- <a href="complaint.html" onclick="changeText()" class="nav_link login_button">Sign In</a> -->
+                <input type="submit" value="Sign In" onclick="changeText()" class="nav_link login_button">
+            </form>
+        </section>
+        </section>
+    </header> 
+    
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

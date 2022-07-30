@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Marvel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header header_animation">
+        <section id="head">
+        <div id="head_logo">
+            <img src="" id="logo_image">
+        </div>
+
+        <nav id="nav_menu">
+            <ul>
+               <li class="nav_item">
+                    <a href="index.html" class="nav_link">HOME</a>
+                    <div class="underliner"></div> 
+                </li>
+               
+               <li class="nav_item">
+                    <a href="" class="nav_link">ABOUT</a>
+                    <div class="underliner"></div>
+                </li>
+               <li class="nav_item">
+                    <a href="" class="nav_link">DETAILS</a>
+                    <div class="underliner"></div>
+                </li> 
+            </ul>
+        </nav>
+
+        <div class="search">
+            <input type="search" class="search_bar" placeholder="Search">
+            <a href="" class="search_send"><img src="" class="search_icon"></a>
+            <li class="nav_item nav_item_end"><a href="" class="nav_link">GALLERY</a></li>
+        </div>
+        </section>
+
+        <!-- THIS IS THE SECTION THAT FOLLOW THE NAVIGATION MENU -->
+        <section class="header_main">
+        <section class="form_field font_style">
+            <p class="header_para para_position">Please fill the form below to submit your complaint.</p>
+            <form class="form_area padding_1" id="form2" onsubmit="submitForm()">
+                <label class="type_label">Which of these best describes your complaint?</label>
+                <div class="checkboxes"> 
+                <input type="checkbox" id="security">
+                <label for="security">Security</label>
+                </div>
+
+                <div class="checkboxes">
+                <input type="checkbox" id="lighting">
+                <label for="lighting">Lighting</label>
+                </div>
+
+                <div class="checkboxes">
+                <input type="checkbox" id="noise">
+                <label for="noise">Noise</label>
+                </div>
+
+                <div class="checkboxes">
+                <input type="checkbox" id="water">
+                <label for="water">Water</label>
+                </div>
+
+                <div class="checkboxes">
+                <input type="checkbox" id="electricity">
+                <label for="electricity">Electricity</label>
+                </div>
+
+                <div class="checkboxes">
+                    <input type="checkbox" id="other">
+                    <label for="other">Other</label>
+                    </div>
+
+                <div class="text_area">
+                    <textarea class="text_field" id="textArea" placeholder="Please provide additional information about your complaint........."></textarea>
+                </div>
+                <div class="submit_btn">
+                    <input type="submit" value="Submit" class="submit_button">
+                </div>
+            </form>
+        </section>    
+
+        <section class="intro_text">
+            <div class="user_intro">
+            <h2 class="webmarvel_header">Welcome <span>Back</span><span>!!!</span></h2>
+            <p class="header_para" id="username_para">
+                User #344ds
+            </p>
+            <p class="header_para go_tos">
+                Here are your GO-TOs:
+            </p>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+            
+            </div>
+        </section>
+        </section>
+    </section>
+    </header> 
+
+
+    <script src="main.js"></script>
+</body>
+</html>
